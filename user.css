@@ -1,0 +1,77 @@
+body{
+  font-family: sans-serif;
+  height: 100%;
+}
+
+.navbar-text{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.navbar li{
+  padding: 0 40px;
+}
+.nav-item a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+
+}
+.nav-item a:hover{
+  color: #4EC274;
+  border-bottom: 2px solid #4EC274;
+}
+
+.jumbotron{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)), url(images/back.jpg);
+  transition:all.5s ease;
+  -webkit-appearance: none; 
+  transition:all.5s ease;
+  position: inherit;
+  margin-top: 7%;
+}
+
+.jumbotron h1{
+  color: black;
+  font-weight: bold;
+  size: 1px;
+
+}
+
+
+.container-fluid{
+  color: #363636;
+  background: #363636;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)),url(images/back.jpg);
+  height: 150vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+.navbar-brand img{
+  height: 45px;
+
+}
+
+.signupbutton{
+
+  text-align: center;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+.row img{
+  height: 60px;
+  width: 60px;
+  margin-left: 40%;
+  margin-bottom: 20%;
+}
+
+.html{
+  background: #363636;
+}
+.body{
+  background: #363636;
+}

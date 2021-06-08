@@ -1,0 +1,132 @@
+body{
+  background: #363333;
+  font-family: sans-serif;
+  height: 100%;
+
+}
+.left:after {
+  background-color: #363333;
+  left: -999em;
+   content: '';
+    display: block;
+    position: absolute;
+    width: 999em;
+    top: 0;
+    bottom: 0; 
+}
+.navbar-text{
+  font-size: 30px;
+  font-weight: bold;
+}
+.navbar li{
+  padding: 0 40px;
+}
+.nav-item a{
+  float: right;
+  text-decoration: none;
+  color: #d5d5d5;
+  font-size: 19px;
+
+}
+.navbar span{
+  font-size: 25px;
+}
+.nav-item a:hover{
+  color: #04AA6D;
+  border-bottom: 2px solid #04AA6D;
+}
+
+
+.navbar-brand img{
+  height: 45px;
+
+}
+.log-o{
+  float: right;
+}
+.container{
+  color: #363333;
+  transition:all.5s ease;
+  -webkit-appearance: none;
+  overflow:hidden
+  
+}
+.container-fluid{
+  background: #363333;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)), url(images/back.jpg);
+  height: 50vh;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  text-align: center;
+  border: 2px solid grey;
+  transition:all.5s ease;
+  -webkit-appearance: none;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
+.container-fluid h1{
+  color: #363333;
+  transition:all.5s ease;
+  -webkit-appearance: none;
+}
+
+.container-margin {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.page-footer{
+  background-color: black;
+  color: white;
+}
+.col a{
+  text-align: center;
+}
+
+img.rounded-corners {
+  border-radius: 20px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+html {
+  background: #363333;
+  scroll-behavior: smooth;
+ }
+
+h2:after{
+  width: 100px;
+  height: 2px;
+  display: block;
+  content: "";
+  margin: 0 auto;
+  margin-top: 30px;
+  transition:all.5s ease;
+  -webkit-appearance: none;
+} 
+
+
+.container-fluid{
+  padding:0 !important;
+}
+.col-xs-4{
+  background:rgba(157,52,99,0.7);    
+}
+.jumbotron{
+  background:#363333 !important;
+  margin-top:5px;
+  margin-bottom: 0px!important;
+}
+
+.parent-hover {  
+  pointer-events: none;
+}
+
+.child-hover {
+  pointer-events: auto;
+}
+
+.parent-hover:hover {
+  background: yellow;
+} 
