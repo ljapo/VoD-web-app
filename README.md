@@ -1,2 +1,2 @@
 
-Contact me for advices for application.
+Contact me about advices for application.
