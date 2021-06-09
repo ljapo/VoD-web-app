@@ -1,0 +1,198 @@
+body{
+  font-family: sans-serif;
+  height: 100%;
+}
+
+.navbar-text{
+  font-size: 25px;
+  font-weight: bold;
+}
+.navbar li{
+  padding: 0 40px;
+}
+.nav-item a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+
+}
+.nav-item a:hover{
+  color: #04AA6D;
+  border-bottom: 2px solid #04AA6D;
+}
+
+.jumbotron{
+  transition:all.5s ease;
+  -webkit-appearance: none; 
+  text-transform:uppercase;
+  position: inherit;
+  margin-top: 7%;
+}
+.loginbutton{
+  
+  text-align: center;
+  align-items: center;
+}
+.jumbotron h1{
+  color: black;
+  font-weight: bolder;
+  font-family: sans-serif;
+
+}
+.container-fluid{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)),url(images/back.jpg);
+  height: 130vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+.navbar-brand img{
+  height: 45px;
+
+}
+
+
+.row img{
+  height: 60px;
+  width: 60px;
+  margin-left: 40%;
+  margin-bottom: 20%;
+}
+.page-footer{
+  background-color: black;
+  color: white;
+}
+
+
+html {
+  scroll-behavior: smooth;
+ }
+ 
+ a {
+  text-decoration: none;
+  color: black;
+ } 
+ 
+ #down {
+  margin-top: 100%;
+  padding-bottom: 25%;
+ } 
+body{
+  margin: 0px;
+  font-family: sans-serif;
+  height: 100%;
+
+}
+
+.navbar-text{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.navbar li{
+  padding: 0 40px;
+}
+
+.nav-item a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+
+}
+.nav-item a:hover{
+  color: #4EC274;
+  border-bottom: 2px solid #4EC274;
+}
+
+.jumbotron{
+  padding-top: 0px;
+  padding-bottom:0px;
+  background-size: cover;
+  height: auto;
+  font-weight: normal;
+  text-align: center;
+  display: block;
+  margin-top:11%;
+  border:0;
+  outline:none;
+  border-radius:0;
+  padding:15px 0;
+  font-size:1rem;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  background:main;
+  color:black;
+  transition:all.5s ease;
+  -webkit-appearance: none;
+}
+.btn{
+  text-align: center;
+  align-items: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.jumbotron h1{
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+  size: 20px;
+  font-family: sans-serif;
+}
+
+h2:after{
+  width: 100px;
+  height: 2px;
+  background-color: #4EC274;
+  display: block;
+  content: "";
+  margin: 0 auto;
+  margin-top: 30px;
+  transition:all.5s ease;
+  -webkit-appearance: none;
+}
+.features h2{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.container-fluid{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.2)),url(images/back.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  transition:all.5s ease;
+  -webkit-appearance: none;
+  
+}
+.navbar-brand img{
+  height: 45px;
+}
+
+.features p{
+  margin-top: 20%;
+  width: 70%;
+  margin-left: 15%;
+}
+.arrange{
+  text-align: justify;
+}
+.row img{
+  height: 60px;
+  width: 60px;
+  margin-left: 40%;
+  margin-bottom: 20%;
+}
+.page-footer{
+  background-color: black;
+  color: gray;
+}
+
+
+
